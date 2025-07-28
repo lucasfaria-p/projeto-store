@@ -12,7 +12,6 @@ section {
 }
 
 header {
-    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -53,6 +52,7 @@ header section .search img {
     background-color: red;
     padding: 5px;
     border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
 }
 
 header nav {
@@ -81,4 +81,48 @@ header section .icons {
 header section .icons img {
     padding-right: 1rem;
     margin: 0;
+    cursor: pointer;
 }
+
+#promocoes {
+    display: flex;
+    max-width: 1200px;
+
+    margin-top: 5vh;
+    max-height: 10vh;
+}
+
+#promocoes .pc {
+    background-image: url('imagens/pc.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 30vh;
+    min-width: 23vw;
+}
+
+#promocoes .pc div {
+    background-color: rgba(255, 255, 255, 0.534);
+    max-width: 15vw;
+    min-height: 30vh;
+
+    border-bottom-right-radius: 50%;
+}
+
+#promocoes .pc div p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 2.5rem;
+    padding-left: 1.2rem;
+    color: rgb(0, 0, 0);
+}
+
+#promocoes .pc div .vermais {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+#promocoes .pc div .vermais img {
+    max-width: 1rem;
+}
+
