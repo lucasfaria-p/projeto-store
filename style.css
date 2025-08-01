@@ -96,8 +96,17 @@ header section .icons img {
     background-image: url('imagens/pc.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
     min-height: 30vh;
     min-width: 23vw;
+    border-radius: 10px;
+
+    transition-duration: .5s;
+    transition-timing-function: ease;
+}
+
+#promocoes .pc:hover {
+    min-width: 24vw;
 }
 
 #promocoes .pc div {
@@ -123,6 +132,94 @@ header section .icons img {
 }
 
 #promocoes .pc div .vermais img {
+    max-width: 1rem;
+}
+
+#promocoes .periferico {
+    background-image: url('imagens/periferico.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 30vh;
+    min-width: 23vw;
+    border-radius: 10px;
+    margin-left: 2rem;
+
+    transition-duration: .5s;
+    transition-timing-function: ease;
+}
+
+#promocoes .periferico:hover {
+    min-width: 24vw;
+}
+
+#promocoes .periferico div {
+    background-color: rgba(255, 255, 255, 0.534);
+    max-width: 15vw;
+    min-height: 30vh;
+
+    border-bottom-right-radius: 50%;
+}
+
+#promocoes .periferico div p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 2.5rem;
+    padding-left: 1.2rem;
+    color: rgb(0, 0, 0);
+}
+
+#promocoes .periferico div .vermais {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+#promocoes .periferico div .vermais img {
+    max-width: 1rem;
+}
+
+#promocoes .monitor {
+    background-image: url('imagens/monitor.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 30vh;
+    min-width: 23vw;
+    border-radius: 10px;
+    margin-left: 2rem;
+
+    transition-duration: .5s;
+    transition-timing-function: ease;
+}
+
+#promocoes .monitor:hover {
+    min-width: 24vw;
+}
+
+#promocoes .monitor div {
+    background-color: rgba(255, 255, 255, 0.534);
+    max-width: 15vw;
+    min-height: 30vh;
+
+    border-bottom-right-radius: 50%;
+}
+
+#promocoes .monitor div p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 2.5rem;
+    padding-left: 1.2rem;
+    color: rgb(0, 0, 0);
+}
+
+#promocoes .monitor div .vermais {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+#promocoes .monitor div .vermais img {
     max-width: 1rem;
 }
 
