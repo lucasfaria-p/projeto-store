@@ -72,6 +72,13 @@ header nav a {
     padding-right: 1rem;
     margin-right: 1.2rem;
     border: 1px solid white;
+
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+
+header nav a:hover {
+    letter-spacing: 0.1rem; 
 }
 
 header section .icons {
@@ -83,6 +90,7 @@ header section .icons img {
     margin: 0;
     cursor: pointer;
 }
+
 
 #promocoes {
     display: flex;
