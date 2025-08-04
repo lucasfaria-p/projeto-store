@@ -253,22 +253,30 @@ header section .icons img {
     font-size: 1.8rem;
 }
 
-#produtos .produtos {
+#produtos .products {
     display: flex;
+    gap: 20px;
 }
 
-#produtos .produtos .novos {
+#produtos .products .novos {
     margin-top: 2rem;
     border: 2px solid rgba(44, 42, 42, 0.76);
     padding: 1.2rem;
     text-align: center;
+    
+    transition: 1s;
+    transition-timing-function: linear;
 }
 
-#produtos .produtos .novos img {
+#produtos .products .novos:hover {
+    border: 2px solid rgba(206, 3, 3, 0.884);
+}
+
+#produtos .products .novos img {
     max-width: 15vw;
 }
 
-#produtos .produtos .novos .name  {
+#produtos .products .novos .name  {
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
@@ -276,20 +284,39 @@ header section .icons img {
     margin: 1rem;
 }
 
-#produtos .produtos .novos .comprar {
+#produtos .products .novos .comprar {
     max-width: 8vw;
     background-color: red;
     border-radius: 10px;
+    border: 2px solid red;
 
     margin: auto;
     margin-top: 1rem;
+
+    transition: 0.3s;
+    transition-timing-function: linear;
 }
 
-#produtos .produtos .novos .comprar p {
+#produtos .products .novos .comprar:hover {
+    background-color: white;
+}
+
+#produtos .products .novos .comprar a {
+    text-decoration: none;
+    color: black;
+}
+
+#produtos .products .novos .comprar p {
     text-transform: uppercase;
     padding: 0.5rem;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
     font-weight: 600;
 }
+
+#produtos .products .novos .comprar a p:hover {
+    color: red;
+}
+
+
 
