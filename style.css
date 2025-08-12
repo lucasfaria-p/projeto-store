@@ -390,6 +390,74 @@ header section .icons img {
      color: red;
 }
 
+/* NEWLETTER */
+
+#letter {
+    text-align: center;
+}
+
+#letter h2 {
+    color: rgb(39, 39, 39);
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin-bottom: 1.2rem;
+}
+
+#letter form .email {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 4rem;
+}
+
+#letter form .email p input {
+    font-size: 1rem;
+    border: 0 none;
+    padding: 0.8rem;
+    text-align: center;
+
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+
+
+#letter form .email .assinar {
+    background-color: red;
+    padding: 0.8rem;
+    border-radius: 0px 40% 40% 0px;
+    color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 1rem;
+
+    transition: 0.3s;
+    transition-timing-function: linear;
+    cursor: pointer;
+}
+
+#letter form .email .assinar:hover {
+    background-color: white;
+    border: 1px red solid;
+    padding: 0.7rem;
+    color: red;
+}
+
+#letter .redes img {
+    margin-right: 2rem;
+}
+
+#letter .redes img:hover {
+    
+}
+
+
+
+
+
+
 
 
 
