@@ -445,13 +445,19 @@ header section .icons img {
     color: red;
 }
 
-#letter .redes img {
+#letter .redes i {
     margin-right: 2rem;
+    cursor: pointer;
+
+    transition: 0.3s;
+    transition-timing-function: linear;
 }
 
-#letter .redes img:hover {
+#letter .redes i:hover {
+    color: red;
+} 
     
-}
+
 
 
 
